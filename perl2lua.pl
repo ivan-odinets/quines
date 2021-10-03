@@ -1,0 +1,4 @@
+#!/usr/bin/perl
+$ph="#!/usr/bin/perl";$lh="#!/usr/bin/lua";$endl="\n";$sq="'";$dq='"';$s='\\';$p="%";
+$lua='%s%sph=%s%s%s;lh=%s%s%s;endl=%s%sn%s;sq=%s%s%s;dq=%s%s%s;s=%s%s%s%s;p=%s%s%s;%sperl=%s%ss%ss$ph=%ss%ss%ss;$lh=%ss%ss%ss;$endl=%ss%ssn%ss;$sq=%ss%ss%ss;$dq=%ss%ss%ss;$s=%ss%ss%ss%ss;$p=%ss%ss%ss;%ss$lua=%ss%ss%ss;%ssprintf($lua,$lh,$endl,$dq,$ph,$dq,$dq,$lh,$dq,$dq,$s,$dq,$dq,$sq,$dq,$sq,$dq,$sq,$sq,$s,$s,$sq,$dq,$p,$dq,$endl,$sq,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$sq,$endl,$dq,$lua,$dq,$endl);%s;%sio.write(string.format(perl,ph,endl,dq,ph,dq,dq,lh,dq,dq,s,dq,dq,sq,dq,sq,dq,sq,sq,s,s,sq,dq,p,dq,endl,sq,%s%s%s,sq,endl));%s';
+printf($lua,$lh,$endl,$dq,$ph,$dq,$dq,$lh,$dq,$dq,$s,$dq,$dq,$sq,$dq,$sq,$dq,$sq,$sq,$s,$s,$sq,$dq,$p,$dq,$endl,$sq,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$p,$sq,$endl,$dq,$lua,$dq,$endl);
