@@ -9,7 +9,6 @@ Currently following quines are written:
   ld asm.o -e main -o asm.bin
   ./asm.bin
   ```
-- perl-lua
-  lua2perl.lua & perl2lua.pl - chain quine written on perl and lua
+- Perl and Lua (Files lua2perl.lua, perl2lua.pl. Chain quine written on both perl and lua) 
 - C
-  gcc ./quine.c
+- Java
