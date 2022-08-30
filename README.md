@@ -11,3 +11,5 @@ Currently following quines are written:
   ```
 - perl-lua
   lua2perl.lua & perl2lua.pl - chain quine written on perl and lua
+- C
+  gcc ./quine.c
